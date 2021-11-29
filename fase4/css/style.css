@@ -46,6 +46,15 @@ h1 {
     color: navy;
 }
 
+h2 {
+    font-size: 22px;
+    margin-right: 25px;
+    margin-left: 25px;
+    line-height: 200%;
+    text-align: center;
+    color: navy;
+}
+
 .iframe_facebook {
     padding: 15px;
 }
@@ -72,6 +81,8 @@ h1 {
     text-align: center;
     color: #EEEEEE;
     font-size: 30px;
+    margin: 0px;
+    padding: 15px;
     background-color: #11324D;
     grid-column: 1/1;
 }
@@ -89,7 +100,6 @@ figure {
 }
 
 table {
-    border: solid 0.2px #11324D;
     margin-right: 25px;
     margin-left: 25px;
     margin-top: 25px;
@@ -129,6 +139,12 @@ aside {
     text-align: center;
 }
 
+nav {
+    margin: 0px;
+    padding: 0.5px;
+    text-align: center;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr;
@@ -144,31 +160,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-    background-color: #17343a;
-    margin: 0px;
-    padding: 0.5px;
-    text-align: center;
+.sectionIndex {
+    grid-column: 2/5;
+    border-radius: 15px;
 }
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-}
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-    }
-}
-
-header {
+.mainIndex {
+    display: flex;
+    width: 1080px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1 fr;
     margin: 0px;
     padding: 0px;
-    height: 70px;
+}
+
+.tituloIndex {
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 30px;
+    margin: 0px;
+    padding: 15px;
+    grid-column: 1/1;
 }
