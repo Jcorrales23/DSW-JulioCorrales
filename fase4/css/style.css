@@ -1,6 +1,6 @@
 .parrafo {
     text-align: left;
-    padding: auto;
+    /*padding: auto;*/
     margin-right: 25px;
     margin-left: 25px;
     line-height: 200%;
@@ -169,7 +169,7 @@ body {
     display: flex;
     width: 1080px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1 fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0px;
     padding: 0px;
 }
